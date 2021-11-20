@@ -1,0 +1,47 @@
+<style>
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121318;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 1%;
+  }
+  img {
+     width: 10%;
+     height: 10%;
+  }
+  .container-links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+  }
+  a{
+    margin-left: 7%;
+    color: white;
+    text-decoration: none;
+  }
+  .button{
+    border: solid 1px;
+    padding: 2%;
+    border-radius: 15%;
+    font-style: bold;
+  }
+
+</style>
+
+<nav>
+  <img src="../assets/images/bid365-logo.png"/>
+    <div class="container-links">
+      <a href="/">Home</a>
+      <a routerLink="/home">Agenda de Leilões</a>
+      <a href="#">Venda Direta</a>
+      <a href="#">Quero Vender/Doar</a>
+      <a class="button" routerLink="/login">Entrar</a>
+   </div>
+</nav>

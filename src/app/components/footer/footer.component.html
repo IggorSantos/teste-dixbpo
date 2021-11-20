@@ -1,0 +1,87 @@
+<style>
+footer{
+  background-color: #121318;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 1% 5%;
+}
+.container-footer{
+  display: grid;
+  grid-gap: 10%;
+  grid-template-areas: "logo map links app";
+  color: white;
+}
+.logo{
+  grid-area: logo;
+}
+.logo img{
+  width: 40%;
+  height: 40%;
+}
+.map{
+  grid-area: map;
+  display: flex;
+  flex-direction: column;
+}
+.links{
+  grid-area: links;
+  display: flex;
+  flex-direction: column;
+}
+.app{
+  grid-area: app;
+}
+.app img{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 50%;
+  height: 30%;
+}
+.divisor{
+  margin-top: 2%;
+  background-color: grey;
+  padding: 0.1%;
+}
+.rights{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.container-footer a{
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<footer>
+  <div class="container-footer">
+    <div class="logo">
+      <img src="../assets/images/bid365-logo.png" alt="Logo" />
+      <p>Unir agronegocio e pessoas para elevar o nível do mercado</p>
+    </div>
+    <div class="map">
+      <h4>MAPA DO SITE</h4>
+      <a>Home</a>
+      <a>Agenda de Leilões</a>
+      <a>Venda Direta</a>
+      <a>Quero Vender/Doar</a>
+    </div>
+    <div class="links">
+      <h4>LINKS UTEIS</h4>
+      <a>Webmail</a>
+      <a>Painel de acesso</a>
+    </div>
+    <div class="app">
+      <h4>BAIXE NOSSO APLICATIVO</h4>
+      <img src="../assets/images/google-play-badge.png" alt="Logo Google">
+      <img src="../assets/images/apple-store.png" alt="Logo Apple">
+    </div>
+  </div>
+  <div class="divisor">
+  </div>
+  <div class="rights">
+    <h4>Todos os direitos reservados</h4>
+    <h4>Desenvolvido por DIX BPO</h4>
+  </div>
+</footer>

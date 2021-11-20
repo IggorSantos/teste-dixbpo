@@ -1,0 +1,22 @@
+{
+  "leiloes": [
+    {
+      "id": 1,
+      "title": "Amigos do Leite",
+      "date": "01/06",
+      "img": "../assets/images/leilão-01.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Leilão - MS",
+      "date": "23/01",
+      "img": "../assets/images/leilão-02.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Leilão Especial de Reposição",
+      "date": "14/01",
+      "img": "../assets/images/leilão-03.jpeg"
+    }
+  ]
+}
